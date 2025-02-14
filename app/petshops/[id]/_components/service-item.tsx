@@ -158,7 +158,7 @@ const ServiceItem = ({ service, isAuthenticated, petShop }: ServiceItemProps) =>
                                     <SheetHeader className="text-left px-5 py-6 border-solid border-secundary">
                                         <SheetTitle>Fazer Reserva</SheetTitle>
                                     </SheetHeader>
-                                    <div className="py-6 px-5">
+                                    <div className="py-1 px-5">
                                         <Calendar
                                             mode="single"
                                             selected={date}
@@ -193,7 +193,7 @@ const ServiceItem = ({ service, isAuthenticated, petShop }: ServiceItemProps) =>
                                     </div>
 
                                     {date && (
-                                        <div className=" flex gap-3 overflow-x-auto py-6 px-5 border-t border-solid border-secondary [&::-webkit-scrollbar]:hidden">
+                                        <div className=" flex gap-3 overflow-x-auto py-1 px-5 border-t border-solid border-secondary [&::-webkit-scrollbar]:hidden">
                                             {timeList.map((time) => (
                                                 <Button
                                                     onClick={() => handleHourClick(time)}
@@ -204,7 +204,7 @@ const ServiceItem = ({ service, isAuthenticated, petShop }: ServiceItemProps) =>
                                             ))}
                                         </div>
                                     )}
-                                    <div className="py-6 px-5 border-t border-solid border-secundary">
+                                    <div className="py-1 px-5 border-t border-solid border-secundary">
                                         <Card>
                                             <CardContent className="p-3 gap-3 flex flex-col">
                                                 <div className="flex justify-between">
