@@ -208,7 +208,7 @@ const ServiceItem = ({ service, isAuthenticated, petShop }: ServiceItemProps) =>
                                         <Card>
                                             <CardContent className="p-3 gap-3 flex flex-col">
                                                 <div className="flex justify-between">
-                                                    <h2 className="font-bold">{service.name}</h2>
+                                                    <h3 className="font-bold">{service.name}</h3>
                                                     <h3 className="font-bold text-sm">
                                                         {" "}
                                                         {Intl.NumberFormat("pt-BR", {
