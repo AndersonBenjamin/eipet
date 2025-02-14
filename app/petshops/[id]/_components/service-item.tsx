@@ -217,7 +217,7 @@ const ServiceItem = ({ service, isAuthenticated, petShop }: ServiceItemProps) =>
                                                         }).format(Number(service.price))}</h3>
                                                 </div>
                                                 {date && (
-                                                    <div className="flex justify-between">
+                                                    <div className="flex justify-between items-center">
                                                         <h3 className="text-gray-400">Data</h3>
                                                         <h4 className="text-sm">
                                                             {format(date, "dd 'de' MMMM",
@@ -230,13 +230,13 @@ const ServiceItem = ({ service, isAuthenticated, petShop }: ServiceItemProps) =>
                                                 )}
 
                                                 {hour && (
-                                                    <div className="flex justify-between">
+                                                    <div className="flex justify-between items-center">
                                                         <h3 className="text-gray-400">Horário</h3>
                                                         <h4 className="text-sm">{hour}
                                                         </h4>
                                                     </div>
                                                 )}
-                                                <div className="flex justify-between">
+                                                <div className="flex justify-between  items-center">
                                                     <h3 className="text-gray-400">Petshop</h3>
                                                     <h4 className="text-sm">{petShop.name}
                                                     </h4>
