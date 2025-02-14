@@ -207,7 +207,7 @@ const ServiceItem = ({ service, isAuthenticated, petShop }: ServiceItemProps) =>
                                     <div className="py-1 px-5 border-t border-solid border-secundary">
                                         <Card>
                                             <CardContent className="p-3 gap-3 flex flex-col">
-                                                <div className="flex justify-between">
+                                                <div className="flex justify-between items-center">
                                                     <h3 className="font-bold">{service.name}</h3>
                                                     <h3 className="font-bold text-sm">
                                                         {" "}
