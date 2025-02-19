@@ -85,7 +85,7 @@ model Service {
   petshop     Petshop   @relation(fields: [petshopId], references: [id])
   name        String
   description String
-  price       Decimal   @db.Decimal(10, 2)
+  price       Float
   imageUrl    String
   bookings    Booking[]
 }
